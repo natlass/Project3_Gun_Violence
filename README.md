@@ -1,5 +1,5 @@
-# Visualization Project Proposal
-Gun violence visualization project
+# Project 3: Visualization Project Proposal
+# Gun Violence Visualization
 
 
 
