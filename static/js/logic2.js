@@ -112,7 +112,24 @@ for (const property in user) {
         else if (data.year == "2018") {
             temp_marker.addTo(layers.eighteen)
         }
-
+        
     }
 
 };
+// var myIcon = L.icon({
+// 	iconUrl: 'temp_marker',
+// 	iconSizeArray: 
+// 	[
+// 		[32, 32], [96, 96], [256, 256]
+// 	],
+// 	iconAnchorArray: 
+// 	[
+// 		[16, 32], [48, 96], [128, 256]
+// 	]
+// })
+
+// L.autoResizeMarkerSVG = function(latlng, temp_marker) {
+// 	return new L.Marker.AutoResizeSVG(latlng, temp_marker).addTo(map);
+// }
+
+

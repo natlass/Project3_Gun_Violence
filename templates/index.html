@@ -5,9 +5,17 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script> 
+        $(document).ready(function(){
+          $("#flip").mouseenter(function(){
+            $("#panel").slideDown("slow");
+          });
+        });
+        </script>
       <title>Gun Violence in America</title>
-      <div class="header">
-        <h1>Gun Violence in America</h1>
+      <div id="flip"></div>
+      <div id="panel">Gun Violence in America</div>
       </div>
       <!-- Leaflet CSS -->
       <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
@@ -37,6 +45,7 @@
         var user = JSON.parse('{{ event | tojson | safe}}');
         console.log(user);
     </script>
+    <script src="../static/js/marker-resize-svg.js"></script>
       <!-- Our JavaScript -->
       <script type="text/javascript" src="../static/js/logic2.js"></script>
     

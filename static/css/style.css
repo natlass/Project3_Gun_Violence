@@ -8,14 +8,22 @@ body {
   html {
     height: 95%;
   }
-  .header {
+  #panel, #flip {
     padding: 10px;
     text-align: center;
-    background: grey;
-    color: grey;
+    background-color: lightgrey;
+    border: solid 1px #C3C3C3;
+    color: rgb(53, 53, 53)
+  }
+  #panel {
+    padding: 50px;
+    display: none;
+    text-align: center;
+    background: lightgrey;
     font-size: 20px;
     font: Helvetica;
     color: black;
+    border: solid 1px #c3c3c3;
    }
   .legend {
     padding: 15px 25px;
